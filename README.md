@@ -27,10 +27,10 @@ Before getting started, make sure you have installed:
    The API will be available at: [http://localhost:3000/api/items](http://localhost:3000/api/items)
 
     ### Get all items
-        curl http://demoapi-1302489883.us-east-1.elb.amazonaws.com:3000/api/items
+        curl http://localhost:3000/api/items
 
     ### Create a new item
-        curl -X POST -H "Content-Type: application/json" -d '{"name":"New Item","description":"Description of new item"}' http://demoapp2-1302489883.us-east-1.elb.amazonaws.com:3000/api/items
+        curl -X POST -H "Content-Type: application/json" -d '{"name":"New Item","description":"Description of new item"}' http://localhost:3000/api/items
 
 ## Deployment on AWS ECR
 
